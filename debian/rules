@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+DH_BUILD_MAINT_OPTIONS="nocheck"
+export PYBUILD_NAME=certifi
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild
