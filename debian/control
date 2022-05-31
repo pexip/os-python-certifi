@@ -11,7 +11,7 @@ Vcs-Git: https://salsa.debian.org/debian/python-certifi.git
 Vcs-Browser: https://salsa.debian.org/debian/python-certifi
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.4
-XS-Pexip-Upstream: http://mirror.einval.org/debian/ buster
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
 
 Package: python-certifi
 Architecture: all
