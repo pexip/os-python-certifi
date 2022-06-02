@@ -1,3 +1,9 @@
+python-certifi (2020.6.20-1pexip1) pexip; urgency=medium
+
+  * Initial bullseye build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 02 Jun 2022 14:42:45 +0100
+
 python-certifi (2020.6.20-1) unstable; urgency=medium
 
   * New upstream version 2020.6.20 (Closes: #969725)
