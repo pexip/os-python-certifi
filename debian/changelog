@@ -1,3 +1,9 @@
+python-certifi (2020.6.20-1pexip3) pexip-bullseye; urgency=medium
+
+  * Bullseye rebuild for ARM64 inclusion
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Mon, 05 Sep 2022 10:35:17 +0100
+
 python-certifi (2020.6.20-1pexip2) pexip-bullseye; urgency=medium
 
   * Main bullseye build
