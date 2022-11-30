@@ -1,0 +1,1 @@
+Test-Command: python3 -c 'import certifi; assert certifi.where() == "/etc/ssl/certs/ca-certificates.crt"'
