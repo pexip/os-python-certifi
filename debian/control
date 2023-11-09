@@ -11,7 +11,7 @@ Standards-Version: 4.5.0
 Homepage: https://github.com/certifi/python-certifi
 Vcs-Git: https://salsa.debian.org/debian/python-certifi.git
 Vcs-Browser: https://salsa.debian.org/debian/python-certifi
-XS-Pexip-Upstream: http://deb.debian.org/debian/ bullseye
+XS-Pexip-Upstream: http://deb.debian.org/debian/ bookworm
 
 Package: python3-certifi
 Architecture: all
