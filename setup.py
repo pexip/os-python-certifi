@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
-from __future__ import with_statement
 import re
 import os
 import sys
@@ -18,7 +16,7 @@ except ImportError:
 
 
 version_regex = r'__version__ = ["\']([^"\']*)["\']'
-with open('certifi/__init__.py', 'r') as f:
+with open('certifi/__init__.py') as f:
     text = f.read()
     match = re.search(version_regex, text)
 
@@ -38,16 +36,17 @@ setup(
     long_description=open('README.rst').read(),
     author='Kenneth Reitz',
     author_email='me@kennethreitz.com',
-    url='https://certifiio.readthedocs.io/en/latest/',
+    url='https://github.com/certifi/python-certifi',
     packages=[
         'certifi',
     ],
     package_dir={'certifi': 'certifi'},
-    package_data={'certifi': ['*.pem']},
+    package_data={'certifi': ['*.pem', 'py.typed']},
     # data_files=[('certifi', ['certifi/cacert.pem'])],
     include_package_data=True,
     zip_safe=False,
     license='MPL-2.0',
+    python_requires=">=3.6",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
@@ -55,15 +54,15 @@ setup(
         'Natural Language :: English',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3 :: Only',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-        'Programming Language :: Python :: 3.8'
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
     project_urls={
-        'Documentation': 'https://certifiio.readthedocs.io/en/latest/',
         'Source': 'https://github.com/certifi/python-certifi',
     },
 )
