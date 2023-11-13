@@ -1,3 +1,26 @@
+python-certifi (2022.9.24-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 12 to 13.
+  * Update renamed lintian tag names in lintian overrides.
+
+  [ Sébastien Delafond ]
+  * New upstream version 2022.9.24 (Closes: #1025149)
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 30 Nov 2022 11:29:19 +0100
+
+python-certifi (2022.6.15-2) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * New upstream version 2022.6.15 (Closes: #1018053)
+  * Bump-up Standards-Version
+  * Update lintian overrides
+  * Bump-up d/watch version
+  * debian/tests: add simple test
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 25 Aug 2022 04:11:03 +0200
+
 python-certifi (2020.6.20-1pexip3) pexip-bullseye; urgency=medium
 
   * Bullseye rebuild for ARM64 inclusion
@@ -20,7 +43,7 @@ python-certifi (2020.6.20-1) unstable; urgency=medium
 
   * New upstream version 2020.6.20 (Closes: #969725)
   * Bump-up Standards-Version
-  
+
  -- Sebastien Delafond <seb@debian.org>  Tue, 08 Sep 2020 08:28:44 +0200
 
 python-certifi (2020.4.5.1-1) unstable; urgency=medium

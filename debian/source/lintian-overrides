@@ -1,1 +1,2 @@
-python-certifi source: debian-watch-may-check-gpg-signature
+python-certifi source: debian-watch-does-not-check-openpgp-signature
+python-certifi source: patch-not-forwarded-upstream [debian/patches/0001-Use-Debian-provided-etc-ssl-certs-ca-certificates.cr.patch]
