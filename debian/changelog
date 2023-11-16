@@ -1,3 +1,9 @@
+python-certifi (2022.9.24-1pexip1) pexip-bookworm; urgency=medium
+
+  * Initial bookworm build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Thu, 16 Nov 2023 10:22:14 +0000
+
 python-certifi (2022.9.24-1) unstable; urgency=medium
 
   [ Debian Janitor ]
