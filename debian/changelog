@@ -1,3 +1,57 @@
+python-certifi (2025.1.31+ds-1) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * New upstream version 2025.1.31+ds
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 13 Feb 2025 06:19:50 +0100
+
+python-certifi (2024.12.14+ds-1) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * Use +ds suffix
+  * New upstream version 2024.12.14
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 05 Jan 2025 08:54:29 +0100
+
+python-certifi (2024.8.30+dfsg-1) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * Exclude certifi/cacert.pem (Closes: #947287)
+
+ -- Sebastien Delafond <seb@debian.org>  Mon, 07 Oct 2024 14:43:02 +0200
+
+python-certifi (2024.8.30-1) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * New upstream version 2024.8.30
+  * d/control: bump up Standards-Version
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 11 Sep 2024 11:10:07 +0200
+
+python-certifi (2024.6.2-1) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * New upstream version 2024.6.2
+  * Rediff patches
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 14 Jun 2024 11:52:10 +0200
+
+python-certifi (2023.11.17-1) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * New upstream version 2023.11.17
+  * lintian: fix overrides
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 27 Dec 2023 16:36:00 +0100
+
+python-certifi (2023.7.22-1) unstable; urgency=medium
+
+  [ Sébastien Delafond ]
+  * New upstream version 2023.7.22
+  * d/control: bump-up Standards-Version
+
+ -- Sebastien Delafond <seb@debian.org>  Tue, 26 Sep 2023 09:55:53 +0200
+
 python-certifi (2022.9.24-1) unstable; urgency=medium
 
   [ Debian Janitor ]

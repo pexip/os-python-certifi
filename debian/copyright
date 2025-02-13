@@ -1,6 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: certifi
 Source: https://github.com/asweigart/certifi
+Files-Excluded: certifi/cacert.pem
 
 Files: *
 Copyright: Kenneth Reitz me@kennethreitz.com
