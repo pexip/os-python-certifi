@@ -1,3 +1,9 @@
+python-certifi (2025.1.31+ds-1+pexip25u1) pexip-trixie; urgency=medium
+
+  * Initial trixie build
+
+ -- Mark Hymers <mark.hymers@pexip.com>  Tue, 29 Apr 2025 22:52:29 +0100
+
 python-certifi (2025.1.31+ds-1) unstable; urgency=medium
 
   [ Sébastien Delafond ]
